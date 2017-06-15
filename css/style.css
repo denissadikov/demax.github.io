@@ -1,22 +1,39 @@
-menu a {
-    display: inline-block;
-    color: #fff;
-}
-menu {
+.fixed-block {
     position: fixed;
-    width: 100%;
-    background-color: black;
-    padding: 10px;
-    margin: 0;
+    display: block;
+    background: #b7b7b7;
+    padding: 13px 0;
+    width: 70%;
+    top: 15px;
 }
-.block {
-    width: 300px;
-    height: 400px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -150px;
-    margin-top: -200px;
-    border:  2px solid grey;
-    padding: 20px 30px 20px 30px;
+.\32 -block {
+    display: block;
+    overflow: hidden;
+    margin-top: 60px;
 }
+.podcherk-sferhy {
+    text-decoration: overline;
+}
+.\32 -block p {
+    display: inline-block;
+}
+.\33 -block {
+    display: block;
+    padding: 30px 0;
+    border: solid 6px #5f5f5f;
+    outline: solid 6px #888;
+    overflow: scroll;
+}
+
+.\34 -block {
+    background: #656565;
+    margin-top: 20px;
+}
+
+   li {
+    list-style-type: none; /* Убираем маркеры у списка */
+   }
+   li:before {
+    content: "ƥ "; /* Добавляем в качестве маркера символ */
+   }
+  
